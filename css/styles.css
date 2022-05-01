@@ -450,8 +450,8 @@ span {
         justify-content: center;
         align-items: center;
         fill: #AFB1B8;
-        transition: color 250ms var(--animation),
-        background-color 250ms var(--animation);
+        transition: fill 250ms var(--animation),
+        border-color 250ms var(--animation);
     }
     .clients-link:hover,
     .clients-link:focus {
@@ -497,6 +497,7 @@ margin-bottom: 0px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--footer-logo-color);
+        transition: color 250ms var(--animation);
         
     }
     .footer-add-link:hover,
@@ -509,6 +510,7 @@ margin-bottom: 0px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
+        transition: color 250ms var(--animation);
         
     }
     .footer-link:hover,
