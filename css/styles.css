@@ -366,7 +366,7 @@ span {
     }
     .team-soc-item 
      
-    .team-icon {
+    .team-icon > img {
         display: block;
         width: 100%;
         height: auto;
